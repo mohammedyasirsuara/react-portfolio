@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Cell, Tab, Tabs, Grid, Card, CardTitle, CardActions, Button, IconButton, CardMenu, CardText } from 'react-mdl';
+import { Cell, Tab, Tabs, Grid } from 'react-mdl';
 import HTML from '../components/projects/html';
 import NodeJS from '../components/projects/nodejs';
 import Mongo from '../components/projects/mongo';

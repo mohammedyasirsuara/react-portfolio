@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
-import {} from '@material-ui/core';
 class Contact extends Component{
     render(){
         return(
