@@ -1,38 +1,225 @@
-.App {
+.header-color{
+  background: #C33764;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.home-grid{
+  background: #C33764;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #1D2671, #C33764);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mdl-layout__drawer-button{
+  visibility: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.avatar-image{
+  height: 250px;
+  padding-top: 5em;
+  border-radius: 10%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.banner{
+  background-color: black;
+  opacity: 0.8;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner h1{
+  font-size: 70px;
+  font-weight: bold;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.banner hr{
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.banner p{
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.socials{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.socials i{
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.projects-grid{
+  display: flex;
+}
+
+.contact-body {
+  margin: auto;
+  background: #ddd8d8;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 95%;
+  height: auto;
+  background: #ddd8d8;
+  color: black;
+  margin-bottom: 20px;
+  border: 2px solid red;
+}
+
+.mdl-layout__content{
+  background: #ddd8d8;
+}
+
+.contact-body h1{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-body .info{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fa{
+  font-size: 150px;
+  padding-top: 40px;
+  color: grey;
+}
+
+.pieces{
+  color: red;
+}
+
+footer p{
+  text-align: center;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.name{
+  padding-top: 1.5em;
+}
+
+.para{
+  font-size: 20px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+.list>li{
+    margin: 0px 0px 10px;
+    padding: 0px 0px 0px 20px;
+    column-count: 2;
+    column-gap: 50px;
+    column-fill: auto;
+    list-style-position: inside;
+    list-style: none;
+    font-size: 17px;
+    margin-left: -2.2em;
+}
+
+.list>li::before{
+    content: "▹";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+}
+
+.info{
+  padding-top: 40px;
+}
+
+.pic{
+  padding-top: 20px;
+}
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link{
+  color: darkblue !important;
+  font-size: 18px;
+}
+
+.resume{
+  padding-left: 30px;
+}
+.resume a{
+  font-weight: bolder;
+  font-size: larger;
+}
+
+/*Tablets*/
+@media screen and (max-width: 1030px) {
+  .mdl-layout__drawer-button{
+    visibility: visible;
   }
-  to {
-    transform: rotate(360deg);
+  .mdl-tabs{
+    padding-top: 4em;
+  }
+  .pic{
+    padding-top: 4em;
+  }
+  .resume{
+    padding-top: 30px;
+  }
+}
+
+/*Mobile Phones*/
+@media screen and (max-width:600px){
+  .banner{
+    margin-top: 2em;
+  }
+  .banner h1{
+    font-size: 40px;
+  }
+  .socials{
+    width: 30%;
+    margin-left: 10px;
+  }
+  .socials i{
+    font-size: 4.3em;
+  }
+
+  .aboutMe{
+    padding-top: 5em;
+  }
+  .name{
+    padding-top: 0.5em;
+  }
+  .info{
+    padding-top: 0px;
+  }
+  .info h2{
+    font-size: 40px;
+    text-align: center;
+  }
+  .mdl-tabs{
+    padding-top: 4em;
+  }
+
+  .mdl-layout__drawer-button{
+    visibility: visible;
+  }
+
+  .resume{
+    padding-top: 30px;
   }
 }
