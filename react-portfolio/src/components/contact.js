@@ -9,17 +9,17 @@ class Contact extends Component{
                 <div><h4 className='info'>Feel free to contact me on any of the methods below....Let's Talk</h4></div>
                 <Grid className='contact-grid'>
                     <Cell col={4} tablet={12}>
-                        <a><i className='icons' class="fa fa-phone" aria-hidden="true"></i></a>
-                        <div><a><p className='pieces' style={{fontWeight:'bolder', fontSize:'20px'}}>+1(604)-445-1684</p></a></div>
+                        <a href="tel:+16044451684"><i className='icons' class="fa fa-phone" aria-hidden="true"></i></a>
+                        <div><a href="tel:+16044451684"><p className='pieces' style={{fontWeight:'bolder', fontSize:'20px'}}>+1(604)-445-1684</p></a></div>
                     </Cell>
                     <Cell col={4} tablet={12}>
-                        <a><i className='icons' class="fa fa-envelope" aria-hidden="true"></i></a>
-                        <div><a><p className='pieces' style={{fontWeight:'bolder', fontSize:'20px'}}>suara373@gmail.com</p></a></div>
+                        <a href="mailto:suara373@gmail.com"><i className='icons' class="fa fa-envelope" aria-hidden="true"></i></a>
+                        <div><a href="mailto:suara373@gmail.com"><p className='pieces' style={{fontWeight:'bolder', fontSize:'20px'}}>Email</p></a></div>
                     </Cell>
                     <Cell col={4} tablet={12}>
-                        <a><i className='icons' class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/_mohammedsuara/?hl=en"><i className='icons' class="fa fa-instagram" aria-hidden="true"></i></a>
                         <div>
-                            <a><p className='pieces' style={{fontWeight:'bolder', fontSize:'20px'}}>+1(604)-445-1684</p></a>
+                            <a href="https://www.instagram.com/_mohammedsuara/?hl=en"><p className='pieces' style={{fontWeight:'bolder', fontSize:'20px'}}>Instagram</p></a>
                         </div>
                     </Cell>
                 </Grid>

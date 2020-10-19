@@ -19,12 +19,12 @@ class Home extends Component{
                             <p>HTML | CSS | Javascript | Bootstrap | MongoDB | React | NodeJS | MySQL</p>
                             <div className="socials">
                                 {/*Linkedn Profile*/}
-                            <a href="/" target="_blank" rel="noopener noreferrer" >
+                            <a href="https://www.linkedin.com/in/mohammed-yasir-suara-849954122/" target="_blank" rel="noopener noreferrer" >
                                 <i className='fa fa-linkedin-square' aria-hidden="true"></i>
                             </a>
 
                             {/*github Profile*/}
-                            <a href="/" target="_blank" rel="noopener noreferrer" >
+                            <a href="https://github.com/mohammedyasirsuara" target="_blank" rel="noopener noreferrer" >
                                 <i className='fa fa-github-square' aria-hidden="true"></i>
                             </a>
                             
@@ -34,8 +34,8 @@ class Home extends Component{
                             </a>
 
                             {/*instagram Profile*/}
-                            <a href="/" target="_blank" rel="noopener noreferrer" >
-                                <i className='fa fa-instagram' aria-hidden="true"></i>
+                            <a href="https://www.facebook.com/yasir1394" target="_blank" rel="noopener noreferrer" >
+                                <i className='fa fa-facebook' aria-hidden="true"></i>
                             </a>
                         </div>
                         </div>
