@@ -45,15 +45,14 @@ export default function FullWidthGrid() {
                 <Typography gutterBottom variant="h5" component="h2">
                     Employee Tracker
                 </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                    across all continents except Antarctica
+                <Typography variant="body2" color="textSecondary" component="p" className='proj-des'>
+                  A node application that allows the user to add, view employees, departments, roles and also update roles. 
                 </Typography>
                 </CardContent>
             </CardActionArea>
             <CardActions>
                 <Button size="medium" color="primary">
-                <a href='https://github.com/mohammedyasirsuara/Employee-Tracker'>Github</a>
+                <a target='_blank' rel="noopener noreferrer" href='https://github.com/mohammedyasirsuara/Employee-Tracker'>Github</a>
                 </Button>
             </CardActions>
             </Card>

@@ -170,6 +170,10 @@ footer p{
   font-size: larger;
 }
 
+.proj-des{
+  font-size: 15px !important;
+}
+
 /*Tablets*/
 @media screen and (max-width: 1030px) {
   .mdl-layout__drawer-button{

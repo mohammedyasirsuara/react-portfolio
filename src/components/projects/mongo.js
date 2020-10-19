@@ -15,6 +15,7 @@ import img2 from '../../img/budgetT.png';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    height: 450
   }
 }));
 
@@ -38,18 +39,17 @@ export default function FullWidthGrid() {
                 <Typography gutterBottom variant="h5" component="h2">
                     Workout Tracker
                 </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                    across all continents except Antarctica
+                <Typography variant="body2" color="textSecondary" component="p" className='proj-des'>
+                    A web application created using express and stores and receives data from a Mongo database.
                 </Typography>
                 </CardContent>
             </CardActionArea>
             <CardActions>
             <Button size="medium" color="primary">
-                <a href='https://github.com/mohammedyasirsuara/WorkoutTracker'>Github</a>
+                <a target='_blank' rel="noopener noreferrer" href='https://github.com/mohammedyasirsuara/WorkoutTracker'>Github</a>
                 </Button>
                 <Button size="medium" color="primary">
-                <a href='https://hidden-taiga-93596.herokuapp.com/'>Deployed App</a>
+                <a target='_blank' rel="noopener noreferrer" href='https://hidden-taiga-93596.herokuapp.com/'>Deployed App</a>
                 </Button>
             </CardActions>
             </Card>
@@ -70,18 +70,17 @@ export default function FullWidthGrid() {
                 <Typography gutterBottom variant="h5" component="h2">
                     Budget Tracker
                 </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                    across all continents except Antarctica
+                <Typography variant="body2" color="textSecondary" component="p" className='proj-des'>
+                    A web application that allows the user to add and subtract expenses so that they can manage their budget better.
                 </Typography>
                 </CardContent>
             </CardActionArea>
             <CardActions>
                 <Button size="medium" color="primary">
-                <a href='https://github.com/mohammedyasirsuara/BudgetTracker'>Github</a>
+                <a target='_blank' rel="noopener noreferrer" href='https://github.com/mohammedyasirsuara/BudgetTracker'>Github</a>
                 </Button>
                 <Button size="medium" color="primary">
-                <a href='https://glacial-savannah-33369.herokuapp.com/'>Github</a>
+                <a target='_blank' rel="noopener noreferrer" href='https://glacial-savannah-33369.herokuapp.com/'>Deployed App</a>
                 </Button>
             </CardActions>
             </Card>

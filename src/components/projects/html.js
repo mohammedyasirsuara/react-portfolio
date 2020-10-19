@@ -16,6 +16,7 @@ import img3 from '../../img/img3.png';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    height: 450,
   }
 }));
 
@@ -39,18 +40,18 @@ export default function FullWidthGrid() {
                 <Typography gutterBottom variant="h5" component="h2">
                     Recipe Search
                 </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                    across all continents except Antarctica
+                <Typography variant="body2" color="textSecondary" component="p" className='proj-des'>
+                    A web app that uses the Youtube API and a Food Recipe(Edamam) API to generate random food recipies using your main ingredient 
+                    as the base for the dish.  
                 </Typography>
                 </CardContent>
             </CardActionArea>
             <CardActions>
                 <Button size="medium" color="primary">
-                <a href='https://github.com/a-mccaffrey/aplus-foodies'>Github</a>
+                <a target='_blank' rel="noopener noreferrer" href='https://github.com/a-mccaffrey/aplus-foodies'>Github</a>
                 </Button>
                 <Button size="medium" color="primary">
-                <a href='https://a-mccaffrey.github.io/aplus-foodies/'>Deployed App</a>
+                <a target='_blank' rel="noopener noreferrer" href='https://a-mccaffrey.github.io/aplus-foodies/'>Deployed App</a>
                 </Button>
             </CardActions>
             </Card>
@@ -71,18 +72,18 @@ export default function FullWidthGrid() {
                 <Typography gutterBottom variant="h5" component="h2">
                     Weather Dashboard
                 </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                    across all continents except Antarctica
+                <Typography variant="body2" color="textSecondary" component="p" className='proj-des'>
+                    Colourful web app made using the Open Weather API, it can be used to check the weather of a place and 
+                    also the forecast for the next 5-days.
                 </Typography>
                 </CardContent>
             </CardActionArea>
             <CardActions>
                 <Button size="medium" color="primary">
-                <a href='https://github.com/mohammedyasirsuara/WeatherDashBoard'>Github</a>
+                <a target='_blank' rel="noopener noreferrer" href='https://github.com/mohammedyasirsuara/WeatherDashBoard'>Github</a>
                 </Button>
                 <Button size="medium" color="primary">
-                <a href='https://mohammedyasirsuara.github.io/WeatherDashBoard/'>Deployed App</a>
+                <a target='_blank' rel="noopener noreferrer" href='https://mohammedyasirsuara.github.io/WeatherDashBoard/'>Deployed App</a>
                 </Button>
             </CardActions>
             </Card>
@@ -103,18 +104,17 @@ export default function FullWidthGrid() {
                 <Typography gutterBottom variant="h5" component="h2">
                     Random Password Generator
                 </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                    across all continents except Antarctica
+                <Typography variant="body2" color="textSecondary" component="p" className='proj-des'>
+                    A web application that takes in user input and generates a random password using the inputs.
                 </Typography>
                 </CardContent>
             </CardActionArea>
             <CardActions>
                 <Button size="medium" color="primary">
-                <a href='https://github.com/mohammedyasirsuara/RandomPasswordGenerator'>Github</a>
+                <a target='_blank' rel="noopener noreferrer" href='https://github.com/mohammedyasirsuara/RandomPasswordGenerator'>Github</a>
                 </Button>
                 <Button size="medium" color="primary">
-                <a href='https://mohammedyasirsuara.github.io/RandomPasswordGenerator/'>Deployed App</a>
+                <a target='_blank' rel="noopener noreferrer" href='https://mohammedyasirsuara.github.io/RandomPasswordGenerator/'>Deployed App</a>
                 </Button>
             </CardActions>
             </Card>
